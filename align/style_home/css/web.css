@@ -1,0 +1,196 @@
+.container .header {
+    height: 55px;
+    background-color: #FCFCFC;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+    border-top: 5px solid #4db2ec;
+}
+
+.header .xs {
+    width: 120px;
+}
+
+.header .row a {
+    text-decoration: none;
+    color: black;
+}
+
+.header .row .user_lognout1 {
+    list-style: none;
+}
+
+.header .row .user_lognout1 li {
+    position: relative;
+}
+
+.header .row .user_lognout2 {
+    list-style: none;
+}
+
+.header .row .user_lognout2 li {
+    display: none;
+    width: 100px;
+    height: 30px;
+}
+
+.header .row .user_lognout2 li a {
+    margin-top: -10px;
+}
+
+.header .row .user_lognout1 li:hover .user_lognout2 li {
+    display: block;
+    position: absolute;
+}
+
+
+/* 
+.header .row #user ul.user_lognout li {
+    display: none;
+}
+
+.header .row #user:hover ul.user_lognout li {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+} */
+
+.header .col-md-3 {
+    text-align: left;
+    padding-left: 105px;
+}
+
+.header .row a:hover {
+    color: #6cbfef;
+}
+
+.row .col-md-3 .icon {
+    width: 35px;
+}
+
+
+/* nav */
+
+.containner .nav {
+    height: 195px;
+}
+
+.nav .logo {
+    height: 130px;
+    text-align: left;
+    padding-top: 26px;
+    padding-left: 16px;
+}
+
+.logo .interface {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo .free {
+    line-height: 16px;
+}
+
+.nav .menu-top {
+    height: 65px;
+    background-color: #4db2ec;
+    width: 1140px;
+    text-align: left;
+}
+
+
+/*  */
+
+#menu ul {
+    list-style: none;
+    font-family: Arial, san-serif;
+    font-size: 12px;
+    padding: 0;
+}
+
+#menu ul li {
+    float: left;
+    position: relative;
+    border: none;
+}
+
+#menu ul a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 30px;
+    background: black;
+    margin-top: -10px;
+}
+
+#menu ul #active {
+    background: #4db2ec;
+}
+
+#menu ul a:hover {
+    background: red;
+}
+
+#menu li ul a {
+    background: black;
+}
+
+#menu li ul {
+    position: absolute;
+    display: none;
+    width: 219px;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+
+/*  */
+
+
+/*  */
+
+.menu-top .search {
+    float: left;
+    width: 240px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.search .inputSearch {
+    margin-top: 10px;
+}
+
+
+/* section */
+
+.container {
+    padding-left: 10px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section #tieude {
+    float: left;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin-top: -1px;
+}
